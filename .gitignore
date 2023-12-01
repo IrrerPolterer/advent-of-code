@@ -1,0 +1,68 @@
+# virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# settings
+.env
+.env.*
+!.env.example
+
+# python internals
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.ipynb
+
+# build artifacts
+dist/
+
+# logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+db.sqlite3
+db.sqlite3-journal
+
+# qa artifacts
+.reports/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.pyre/
+.pytype/
+.pylint.d/
+.flake8
+.bandit
+.isort.cfg
+
+# editors
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+*.sublime-project
+*.swp
+tags
+*.cache
+
+# misc
+__pypackages__/
+instance/
+.webassets-cache
+docs/_build/
+/sitecelerybeat-schedule
+celerybeat.pid
